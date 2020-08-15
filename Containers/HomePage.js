@@ -16,7 +16,6 @@ class Homepage extends Component {
     }
     onLogin = (user) => {
         axios.post('http://localhost:1234/login', user).then((res) => {
-            console.log(res);
             const loginres = res.data;
             if (loginres.isLoggedIn) {
                 this.setState(loginres);

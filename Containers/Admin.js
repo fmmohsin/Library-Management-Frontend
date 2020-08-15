@@ -6,23 +6,25 @@ import './Home.css'
 
 const Admin=(props)=>{
 return(
-    <div className="Admin">
+    <div className="dashboard">
     <header>
         <nav>
             <ul>
                 <li><NavLink
-                    to="/Books/"
+                    to="/books/"
                     exact
                     >Books</NavLink></li>
-                <li><NavLink to='/Transactions/'
+                <li><NavLink 
+                to='/transactions/'
+                exact
                 >Transactions</NavLink></li>
             </ul>
         </nav>
     </header>
     <Switch>
-        <Route path="/Books" component={()=><Books isAdmin={true} />} />
-        <Route path="/Transactions" component={Transactions} />
-        <Redirect to="/Books" /> 
+        <Route path="/books" component={()=><Books isAdmin={true} />} />
+        <Route path="/transactions" component={Transactions} />
+        <Redirect to="/books" /> 
     </Switch>
 </div>
 );

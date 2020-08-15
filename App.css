@@ -38,26 +38,26 @@
 }
 
 
-.Admin ul {
+.dashboard ul {
   list-style: none;
   margin: 0;
   padding: 0;
   width: 100%;
 }
 
-.Admin li {
+.dashboard li {
   display: inline-block;
   margin: 20px;
 }
 
-.Admin a {
+.dashboard a {
   text-decoration: none;
   color: #9e9e9e;
 }
 
-.Admin a:hover,
-.Admin a:active,
-.Admin a.active {
+.dashboard a:hover,
+.dashboard a:active,
+.dashboard a.active {
   color: #fa923f;
 }
 
@@ -83,7 +83,7 @@ button:hover {
   background-color: #f5ad72;
 }
 
-.Admin {
+.dashboard {
   text-align: center;
 }
 .flexCol{
