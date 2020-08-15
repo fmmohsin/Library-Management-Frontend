@@ -1,0 +1,129 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.Admin ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.Admin li {
+  display: inline-block;
+  margin: 20px;
+}
+
+.Admin a {
+  text-decoration: none;
+  color: #9e9e9e;
+}
+
+.Admin a:hover,
+.Admin a:active,
+.Admin a.active {
+  color: #fa923f;
+}
+
+header {
+  height: auto;
+}
+
+button {
+  background-color: #fa923f;
+  color: white;
+  border: none;
+  box-shadow: 0 .75rem .5rem -.5rem hsl(0 50% 80%);
+  border-radius: .25rem;
+  padding: .75rem 1rem;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  color: white;
+  background-color: #f5ad72;
+}
+
+.Admin {
+  text-align: center;
+}
+.flexCol{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width:30%;
+  justify-content: space-around;
+  margin: auto;
+}
+
+input {
+  border: none;
+  background: hsl(0 0% 93%);
+  border-radius: .25rem;
+  padding: .75rem 1rem;
+  margin: .5rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+h2 {
+  color: #9e9e9e;
+}
+
+table{
+  width: 75%;
+  margin:auto;
+}
+table thead{
+  color: #9e9e9e;
+}
+td{
+  color:#3a3a3a;
+  font-size: 1.3rem;
+}
+
+.btnLogin{
+  
+  margin:auto
+}

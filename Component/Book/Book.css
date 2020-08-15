@@ -1,0 +1,10 @@
+.book span{
+    margin: .5rem;
+}
+.book{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+
+}
